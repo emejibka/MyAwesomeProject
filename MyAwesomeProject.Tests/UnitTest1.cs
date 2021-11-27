@@ -14,5 +14,11 @@ namespace MyAwesomeProject.Tests
         {
             Assert.Pass();
         }
+
+        [Test]
+        public void SomeFailTest()
+        {
+            Assert.Equals(1, 2);
+        }
     }
 }
